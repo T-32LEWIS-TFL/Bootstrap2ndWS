@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
+<!-- The beginning of the HTML document -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delicious Eats</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styling.css">
+    <!-- Head section containing metadata and links to external resources -->
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibility settings for Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport settings for responsive design -->
+    <title>Eco-Eats</title> <!-- Title of the webpage -->
+    <link rel="icon" type="image/png" href="Eco-EatsLogoTransparentV1.1[PNG].png"> <!-- Specify the path to your icon image -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Link to Bootstrap CSS file -->
+    <link rel="stylesheet" href="css/styling.css"> <!-- Link to custom CSS file for additional styling -->
 </head>
 
 <body>
+    <!-- Body of the HTML document -->
 
     <!-- Header Section -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+        <!-- Navigation bar at the top of the page -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- Bootstrap navigation bar with a dark background -->
+            <div class="container-fluid"> <!-- Container for the navigation bar -->
+                <a class="navbar-brand" href="#"> <!-- Brand logo and name -->
                     <img src="Eco-EatsLogoTransparentV1.1[PNG].png" alt="Logo" width="40" height="40"
-                        class="d-inline-block align-text-center">
-                    ECO-EATS
+                        class="d-inline-block align-text-center"> <!-- Logo image -->
+                    ECO-EATS <!-- Brand name -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span> <!-- Icon for toggling navigation menu -->
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarNav"> <!-- Collapsible navigation menu -->
+                    <ul class="navbar-nav"> <!-- List of navigation links -->
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a> <!-- Link to home page -->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="menu.html">Menu</a>
+                            <a class="nav-link" href="menu.html">Menu</a> <!-- Link to menu page -->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Us</a>
+                            <a class="nav-link" href="about.html">About Us</a> <!-- Link to about us page -->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a> <!-- Link to contact page -->
                         </li>
                     </ul>
                 </div>
@@ -48,123 +53,123 @@
 
     <!-- Main Section -->
     <main>
-
         <!-- Carousel Section -->
-        <div class="container-fluid py-3">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="CarosalFoodImage1.png" class="d-block w-100" alt="...">
+        <div class="container-fluid py-3"> <!-- Container for carousel with padding on all sides -->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade"> <!-- Bootstrap carousel -->
+                <div class="carousel-inner"> <!-- Container for carousel items -->
+                    <div class="carousel-item active"> <!-- First carousel item -->
+                        <img src="CarosalFoodImage1.png" class="d-block w-100" alt="..."> <!-- Image for carousel -->
                     </div>
-                    <div class="carousel-item">
-                        <img src="CarosalFoodImage2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-item"> <!-- Second carousel item -->
+                        <img src="CarosalFoodImage2.png" class="d-block w-100" alt="..."> <!-- Image for carousel -->
                     </div>
-                    <div class="carousel-item">
-                        <img src="CarosalFoodImage3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-item"> <!-- Third carousel item -->
+                        <img src="CarosalFoodImage3.png" class="d-block w-100" alt="..."> <!-- Image for carousel -->
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span> <!-- Previous button -->
+                    <span class="visually-hidden">Previous</span> <!-- Text for screen readers -->
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span> <!-- Next button -->
+                    <span class="visually-hidden">Next</span> <!-- Text for screen readers -->
                 </button>
             </div>
         </div>
 
         <!-- About Section -->
-        <div class="container py-3">
-            <h1 class="display-1 text-center">Welcome to Eco-Eats</h1>
-            <p class="lead text-center">Explore our delicious menu and enjoy the finest dining experience.</p>
+        <div class="container py-3"> <!-- Container for about section with padding on all sides -->
+            <h1 class="display-1 text-center">Welcome to Eco-Eats</h1> <!-- Heading -->
+            <p class="lead text-center">Explore our delicious menu and enjoy the finest dining experience.</p> <!-- Lead paragraph -->
         </div>
 
         <!-- Menu Section -->
-        <div class="container-fluid">
-            <div class="row mb-3 justify-content-center">
-                <div class="col-md-4 text-center">
-                    <img src="VeganCaesarSalad.png" class="img-fluid mx-auto d-block" alt="...">
-                    <h4>---<br>Signature Dish</h4>
-                    <p>Indulge in our mouthwatering signature dish, crafted with the freshest ingredients and bursting with flavor.</p>
+        <div class="container-fluid"> <!-- Container for menu section with full width -->
+            <div class="row mb-3 justify-content-center"> <!-- Row with margin bottom and center alignment -->
+                <div class="col-md-4 text-center"> <!-- Column for menu item with medium width and center alignment -->
+                    <img src="VeganCaesarSalad.png" class="img-fluid mx-auto d-block" alt="
+
+..."> <!-- Image for menu item -->
+                    <h4>---<br>Signature Dish</h4> <!-- Heading for menu item -->
+                    <p>Indulge in our mouthwatering signature dish, crafted with the freshest ingredients and bursting with flavor.</p> <!-- Description for menu item -->
                 </div>
-                <div class="col-md-4 text-center">
-                    <img src="PumpkinPie.png" class="img-fluid mx-auto d-block" alt="...">
-                    <h4>---<br>Specialty Desserts</h4>
-                    <p>Satisfy your sweet tooth with our delightful specialty desserts, prepared with love and care.</p>
+                <div class="col-md-4 text-center"> <!-- Column for menu item with medium width and center alignment -->
+                    <img src="PumpkinPie.png" class="img-fluid mx-auto d-block" alt="..."> <!-- Image for menu item -->
+                    <h4>---<br>Specialty Desserts</h4> <!-- Heading for menu item -->
+                    <p>Satisfy your sweet tooth with our delightful specialty desserts, prepared with love and care.</p> <!-- Description for menu item -->
                 </div>
-                <div class="col-md-4 text-center">
-                    <img src="Beverage.png" class="img-fluid mx-auto d-block" alt="...">
-                    <h4>---<br>Refreshing Beverages</h4>
-                    <p>Quench your thirst with our refreshing selection of beverages, perfect companions to your meal.</p>
+                <div class="col-md-4 text-center"> <!-- Column for menu item with medium width and center alignment -->
+                    <img src="Beverage.png" class="img-fluid mx-auto d-block" alt="..."> <!-- Image for menu item -->
+                    <h4>---<br>Refreshing Beverages</h4> <!-- Heading for menu item -->
+                    <p>Quench your thirst with our refreshing selection of beverages, perfect companions to your meal.</p> <!-- Description for menu item -->
                 </div>
             </div>
         </div>
 
-
         <!-- Gallery Section -->
-        <div class="container-fluid">
-            <div class="row mb-3 justify-content-center">
-                <div class="col-md-4 text-center">
-                    <figure class="figure">
-                        <img src="VeganSpringRolls.png" class="img-fluid mx-auto d-block" alt="...">
-                        <figcaption class="figure-caption">Delicious Cuisine</figcaption>
+        <div class="container-fluid"> <!-- Container for gallery section with full width -->
+            <div class="row mb-3 justify-content-center"> <!-- Row with margin bottom and center alignment -->
+                <div class="col-md-4 text-center"> <!-- Column for gallery item with medium width and center alignment -->
+                    <figure class="figure"> <!-- Figure for gallery item -->
+                        <img src="VeganSpringRolls.png" class="img-fluid mx-auto d-block" alt="..."> <!-- Image for gallery item -->
+                        <figcaption class="figure-caption">Delicious Cuisine</figcaption> <!-- Caption for gallery item -->
                     </figure>
                 </div>
-                <div class="col-md-4 text-center">
-                    <figure class="figure">
-                        <img src="CozyAmbiance.png" class="img-fluid mx-auto d-block" alt="...">
-                        <figcaption class="figure-caption">Cozy Ambiance</figcaption>
+                <div class="col-md-4 text-center"> <!-- Column for gallery item with medium width and center alignment -->
+                    <figure class="figure"> <!-- Figure for gallery item -->
+                        <img src="CozyAmbiance.png" class="img-fluid mx-auto d-block" alt="..."> <!-- Image for gallery item -->
+                        <figcaption class="figure-caption">Cozy Ambiance</figcaption> <!-- Caption for gallery item -->
                     </figure>
                 </div>
-                <div class="col-md-4 text-center">
-                    <figure class="figure">
-                        <img src="FriendlyService.png" class="img-fluid mx-auto d-block" alt="...">
-                        <figcaption class="figure-caption">Friendly Service</figcaption>
+                <div class="col-md-4 text-center"> <!-- Column for gallery item with medium width and center alignment -->
+                    <figure class="figure"> <!-- Figure for gallery item -->
+                        <img src="FriendlyService.png" class="img-fluid mx-auto d-block" alt="..."> <!-- Image for gallery item -->
+                        <figcaption class="figure-caption">Friendly Service</figcaption> <!-- Caption for gallery item -->
                     </figure>
                 </div>
             </div>
         </div>
 
         <!-- Opening Times Section -->
-        <div class="container py-3">
-            <h2 class="display-4 text-center">Opening Times<br>---</h2>
-            <p class="lead text-center">Monday - Friday: 9am - 10pm</p>
-            <p class="lead text-center">Saturday - Sunday: 10am - 11pm</p>
+        <div class="container py-3"> <!-- Container for opening times section with padding on all sides -->
+            <h2 class="display-4 text-center">Opening Times<br>---</h2> <!-- Heading for opening times -->
+            <p class="lead text-center">Monday - Friday: 9am - 10pm</p> <!-- Opening times for weekdays -->
+            <p class="lead text-center">Saturday - Sunday: 10am - 11pm</p> <!-- Opening times for weekends -->
         </div>
 
-        <div class="container py-3">
-            <h2 class="display-4 text-center">Food Box Locations</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Image -->
-                    <img src="BristolMap.png" class="img-fluid" alt="Food Box Locations">
+        <!-- Food Box Locations Section -->
+        <div class="container py-3"> <!-- Container for food box locations section with padding on all sides -->
+            <h2 class="display-4 text-center">Food Box Locations</h2> <!-- Heading for food box locations -->
+            <div class="row"> <!-- Row for displaying content -->
+                <div class="col-md-6"> <!-- Column for displaying image -->
+                    <img src="BristolMap.png" class="img-fluid" alt="Food Box Locations"> <!-- Image of food box locations -->
                 </div>
-                <div class="col-md-6">
-                    <!-- Description -->
-                    <p class="lead"><br>At Eco-Eats, we're committed to giving back to the community. We provide food boxes filled with fresh and nutritious ingredients to various locations across the city. These food boxes are available for anyone in need, ensuring that everyone has access to wholesome meals. By donating these food boxes, we strive to promote food security and support our community members in need.</p>
+                <div class="col-md-6"> <!-- Column for displaying description -->
+                    <p class="lead"><br>At Eco-Eats, we're committed to giving back to the community. We provide food boxes filled with fresh and nutritious ingredients to various locations across the city. These food boxes are available for anyone in need, ensuring that everyone has access to wholesome meals. By donating these food boxes, we strive to promote food security and support our community members in need.</p> <!-- Description of food box locations -->
                 </div>
             </div>
-        </div>        
+        </div>
 
-        <!-- Map Location Section -->
-        <div class="container py-3">
-            <h2 class="display-4 text-center">Restaurant Location</h2>
-            <!-- Insert map location here -->
-            <p class="lead text-center">123 Bristol Street, Bristol, BS1 1AA</p>
-            <!-- You can embed a map here -->
+        <!-- Restaurant Location Section -->
+        <div class="container py-3"> <!-- Container for restaurant location section with padding on all sides -->
+            <h2 class="display-4 text-center">Restaurant Location</h2> <!-- Heading for restaurant location -->
+            <p class="lead text-center">123 Bristol Street, Bristol, BS1 1AA</p> <!-- Address of the restaurant -->
+            <!-- You can embed a map here --> <!-- Placeholder for embedding a map -->
         </div>
 
     </main>
 
     <!-- Footer Section -->
     <footer class="bg-body-tertiary text-center py-3">
-        <p>&copy; 2024 ECO-EATS. All rights reserved.</p>
+        <p>&copy; 2024 ECO-EATS. All rights reserved.</p> <!-- Copyright information -->
     </footer>
 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> <!-- Link to Bootstrap JavaScript file -->
 </body>
+<!-- The end of the HTML document -->
 
 </html>
+```
