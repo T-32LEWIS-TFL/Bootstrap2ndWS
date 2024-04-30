@@ -1,0 +1,80 @@
+/* Custom CSS for Delicious Eats website */
+
+/* Body styling */
+body {
+    background-color: #008542; /* Light gray background */
+    color: #ffffff; /* Dark text color */
+    font-family: 'Quicksand', sans-serif; /* Quicksand font */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #000000 !important; /* Dark background color */
+}
+
+.navbar-toggler-icon {
+    color: #ff0000; /* Change to your desired color */
+}
+
+.navbar-brand {
+    color: #ffffff !important; /* White text color */
+    font-family: 'Quicksand', sans-serif; /* Quicksand font */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White text color */
+    font-family: 'Quicksand', sans-serif; /* Quicksand font */
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold; /* Bold font for active link */
+}
+
+/* Header styling */
+header {
+    margin-bottom: 20px;
+}
+
+/* Main section styling */
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+/* Carousel image styling */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Card styling */
+.card {
+    border: none;
+}
+
+/* Card title styling */
+.card-title {
+    font-weight: bold;
+}
+
+/* Card text styling */
+.card-text {
+    color: #ffffff; /* Gray text color */
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #343a40; /* Dark background color */
+    border-color: #343a40; /* Dark border color */
+}
+
+.btn-primary:hover {
+    background-color: #212529; /* Darker background color on hover */
+    border-color: #212529; /* Darker border color on hover */
+}
