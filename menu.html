@@ -1,49 +1,53 @@
 <!DOCTYPE html>
+<!-- Define document type and language -->
 <html lang="en" data-bs-theme="dark">
-<!-- Declaration of the HTML document with the language set to English and dark theme -->
 
 <head>
-    <!-- Head section containing metadata and links to external resources -->
+    <!-- Head section containing metadata -->
     <meta charset="UTF-8"> <!-- Character encoding -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibility settings for Internet Explorer -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport settings for responsive design -->
-    <title>Eco-Eats - Menu</title> <!-- Title of the webpage -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Specify compatibility with IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive viewport -->
+    <!-- Title of the page -->
+    <title>Delicious Eats - Menu</title>
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="Eco-EatsLogoTransparentV1.1[PNG].png"> <!-- Specify the path to your icon image -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Link to Bootstrap CSS file -->
-    <link rel="stylesheet" href="css/styling.css"> <!-- Link to custom CSS file for additional styling -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styling.css">
 </head>
 
 <body>
-    <!-- Body of the HTML document -->
 
     <!-- Header Section -->
     <header>
-        <!-- Navigation bar at the top of the page -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- Bootstrap navigation bar with a dark background -->
-            <div class="container-fluid"> <!-- Container for the navigation bar -->
-                <a class="navbar-brand" href="#"> <!-- Brand logo and name -->
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!-- Restaurant Logo and Name -->
+                <a class="navbar-brand" href="#">
                     <img src="Eco-EatsLogoTransparentV1.1[PNG].png" alt="Logo" width="40" height="40"
-                        class="d-inline-block align-text-center"> <!-- Logo image -->
-                    ECO-EATS <!-- Brand name -->
+                        class="d-inline-block align-text-center">
+                    ECO-EATS
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span> <!-- Icon for toggling navigation menu -->
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav"> <!-- Collapsible navigation menu -->
-                    <ul class="navbar-nav"> <!-- List of navigation links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a> <!-- Link to home page -->
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Menu</a> <!-- Link to menu page -->
+                            <a class="nav-link active" aria-current="page" href="#">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Us</a> <!-- Link to about us page -->
+                            <a class="nav-link" href="about.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a> <!-- Link to contact page -->
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -54,68 +58,98 @@
     <!-- Main Section -->
     <main>
         <div class="container py-3">
-            <!-- Container with padding on all sides -->
-            <h1 class="display-3 text-center">Our Menu</h1> <!-- Large heading centered on the page -->
+            <h1 class="display-3 text-center">Our Menu</h1>
             <div class="row">
-                <!-- Row for grid layout -->
                 <div class="col-md-6">
-                    <!-- First column for starters -->
-                    <h2>Starters</h2> <!-- Sub-heading for starters -->
-                    <!-- Card for each starter item -->
+                    <h2>Starters</h2> <!--STARTERS-->
                     <div class="card mb-3">
-                        <img src="VeganSpringRolls.png" class="card-img-top" alt="..."> <!-- Image for starter item -->
+                        <img src="VeganSpringRolls.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <!-- Body content of the card -->
-                            <h5 class="card-title">Vegan Spring Rolls<br>£6.99</h5> <!-- Title and price of the starter -->
+                            <h5 class="card-title">Vegan Spring Rolls<br>£6.99</h5>
                             <p class="card-text">Delicious crispy spring rolls filled with fresh vegetables, served
-                                with a sweet chili dipping sauce.</p> <!-- Description of the starter -->
+                                with a sweet chili dipping sauce.</p>
                         </div>
                     </div>
-                    <!-- More similar cards for other starter items -->
+                    <div class="card mb-3">
+                        <img src="CapreseSalad.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Caprese Salad<br>£8.99</h5>
+                            <p class="card-text">A classic Italian salad made with ripe tomatoes, fresh mozzarella,
+                                basil leaves, and balsamic glaze.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img src="HummusPlatter.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hummus Platter<br>£7.49</h5>
+                            <p class="card-text">Creamy hummus served with pita bread, olives, and fresh vegetables.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img src="VeganCaesarSalad.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vegan Caesar Salad<br>£9.49</h5>
+                            <p class="card-text">Romaine lettuce, cherry tomatoes, croutons, and vegan Caesar dressing.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6">
-                    <!-- Second column for main courses -->
-                    <h2>Main Courses</h2> <!-- Sub-heading for main courses -->
-                    <!-- Card for each main course item -->
+                    <h2>Main Courses</h2> <!--MAIN COURSES-->
                     <div class="card mb-3">
-                        <img src="QuinoaSalad.png" class="card-img-top" alt="..."> <!-- Image for main course item -->
+                        <img src="QuinoaSalad.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <!-- Body content of the card -->
-                            <h5 class="card-title">Quinoa Salad<br>£12.99</h5> <!-- Title and price of the main course -->
+                            <h5 class="card-title">Quinoa Salad<br>£12.99</h5>
                             <p class="card-text">A nutritious salad made with locally-sourced quinoa, mixed greens,
-                                and seasonal vegetables, dressed in a tangy vinaigrette.</p> <!-- Description of the main course -->
+                                and seasonal vegetables, dressed in a tangy vinaigrette.</p>
                         </div>
                     </div>
-                    <!-- More similar cards for other main course items -->
+                    <div class="card mb-3">
+                        <img src="VegetableStirFry.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vegetable Stir-Fry<br>£11.99</h5>
+                            <p class="card-text">A colorful stir-fry made with a variety of fresh vegetables, tofu,
+                                and served with jasmine rice.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img src="VeganMushroomRisotto.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vegan Mushroom Risotto<br>£14.99</h5>
+                            <p class="card-text">Creamy risotto made with Arborio rice, mushrooms, and vegetable broth.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img src="LentilBurger.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lentil Burger<br>£10.99</h5>
+                            <p class="card-text">House-made lentil patty served on a whole-grain bun with lettuce, tomato, and vegan mayo.</p>
+                        </div>
+                    </div>
                 </div>
                 <!-- Seasonal Exclusives Section -->
                 <div class="col-md-6">
-                    <!-- Third column for seasonal exclusives -->
-                    <h2>Autumn Exclusive</h2> <!-- Sub-heading for autumn exclusive item -->
-                    <!-- Card for the autumn exclusive item -->
+                    <h2>Autumn Exclusive</h2>
                     <div class="card mb-3">
-                        <img src="PumpkinPie.png" class="card-img-top" alt="..."> <!-- Image for autumn exclusive item -->
+                        <img src="PumpkinPie.png" class="card-img-top" alt="...">
                         <div class="card-body" style="background-color: rgb(100, 32, 0);">
-                            <!-- Body content of the card with a custom background color -->
-                            <h5 class="card-title">Pumpkin Pie<br>£9.99</h5> <!-- Title and price of the autumn exclusive -->
-                            <p class="card-text">Rich and creamy pumpkin pie made with locally-sourced pumpkins, a blend
-                                of spices, and a buttery crust.</p> <!-- Description of the autumn exclusive -->
+                            <h5 class="card-title">Pumpkin Pie<br>£9.99</h5>
+                            <p class="card-text">Rich and creamy pumpkin pie made with locally-sourced pumpkins, a blend of spices, and a buttery crust.</p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </main>
 
     <!-- Footer Section -->
     <footer class="bg-body-tertiary text-center py-3">
-        <!-- Footer section with a dark background -->
-        <p>&copy; 2024 ECO-EATS. All rights reserved.</p> <!-- Copyright information -->
+        <!-- Copyright Notice -->
+        <p>&copy; 2024 ECO-EATS. All rights reserved.</p>
     </footer>
 
+    <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- Link to Bootstrap JavaScript file -->
 </body>
-<!-- The end of the HTML document -->
 
 </html>
